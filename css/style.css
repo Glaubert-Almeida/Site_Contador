@@ -1,0 +1,74 @@
+body {
+    background-image: url(../img/br-relogio.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* e agora a regra de ouro que fará a imagem ocupar todo o viewport */
+    background-size: 100% 100%; 
+    color: #ffffff;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.26);
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav img {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.container {
+    background-color: rgba(15, 9, 82, 0.61);
+    color: white;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.row {
+    margin: 0;
+}
+
+.formula {
+    padding: 0 40px;
+}
+
+.aviso1 {
+    max-height: 135x;
+}
+
+form h4 {
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align:justify;
+    font-size: 1.2rem;
+
+}
+
+form p {
+    text-align: center;
+}
+
+.aviso {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.QntFalta {
+    text-align: center;
+    color: darkorange;
+    font-size: 3rem;
+
+}
+
+/* .etapa {
+    background-color: rgba(41, 34, 109, 0.719);
+    margin-bottom: 5px;
+    border-radius: 10px;
+} */
+
+footer.page-footer {
+    background-color: rgba(0, 0, 0, 0.26);
+}
